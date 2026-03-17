@@ -15,16 +15,12 @@ The implementation consists of the following files:
 
 To integrate the model into ns-3, follow these steps:
 
-1. Copy the following files into:
-
-/ns3/src/mobility/model/
+1. Copy the following files into: /ns3/src/mobility/model/
 
 - `reg-gauss-markov-mobility-model.h`
 - `reg-gauss-markov-mobility-model.cc`
 
-2. Place the provided `CMakeLists.txt` file in:
-
-/ns3/src/mobility/
+2. Place the provided `CMakeLists.txt` file in: /ns3/src/mobility/
 
 Ensure that it includes the `build_lib` command listing the source and header files of the model.
 
