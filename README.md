@@ -1,4 +1,4 @@
-# RGM Mobility Model for FANETs
+# RGM Mobility Model for FANETs: NS3 Implementation
 
 This repository provides the ns-3 source code for the **Regulated Gauss-Markov Mobility Model** for FANETs.
 
