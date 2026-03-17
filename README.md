@@ -40,3 +40,7 @@ Please cite this work as follows:
 ## Note
 
 **The paper is currently under review. The source code will be fully available upon acceptance.**
+
+## Contact
+
+For more details, please contact Dr. Ala Altaweel at altaweel.ala@gmail.com.
