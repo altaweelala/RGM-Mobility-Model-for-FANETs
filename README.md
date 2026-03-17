@@ -9,3 +9,5 @@ Check the reg-gauss-markov-mobility-model.h that has a commented example on how 
 
 Please cite the Regulated Gauss-Markov mobility model as follows:
 TBA after publishing the paper.
+
+The paper is under review process. The source code will appear on this page upon accetpance.
