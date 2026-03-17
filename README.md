@@ -1,17 +1,52 @@
-# RGM-Mobility-Model-for-FANETs
-The ns3 source code for the Regulated Gauss-Markov Mobility Model for FANETs.
+# RGM Mobility Model for FANETs
 
-These are the two files (.c and .h) needed to run the Regulated Gauss-Markov mobility model published in **A New GPS Spoofing Attack and a Regulated Gauss-Markov Mobility Model for FANETs** in **Ad Hoc Networks**.
+This repository provides the ns-3 source code for the **Regulated Gauss-Markov Mobility Model** for FANETs.
 
-The steps to use the Regulated Gauss-Markov mobility model in ns3 are as follows:
+The implementation corresponds to the model presented in the paper:
 
-	1) Store reg-gauss-markov-mobility-model.h and reg-gauss-markov-mobility-model.cc under ns3/src/mobility/model folder.
-	
-	2) Build ns3.
-	
-Check the ```reg-gauss-markov-mobility-model.h``` that has a commented example on how to use the model.
+**“A New GPS Spoofing Attack and a Regulated Gauss-Markov Mobility Model for FANETs”**, submitted to *Ad Hoc Networks*.
 
-Please cite the Regulated Gauss-Markov mobility model as follows:
-TBA after publishing the paper.
+## Files
+The implementation consists of the following files:
+- `reg-gauss-markov-mobility-model.h`
+- `reg-gauss-markov-mobility-model.cc`
 
-**The paper is under review process. The source code will appear on this page upon accetpance.**
+## Installation Steps
+
+To integrate the model into ns-3, follow these steps:
+
+1. Copy the following files into:
+
+/ns3/src/mobility/model/
+
+- `reg-gauss-markov-mobility-model.h`
+- `reg-gauss-markov-mobility-model.cc`
+
+2. Place the provided `CMakeLists.txt` file in:
+
+/ns3/src/mobility/
+
+Ensure that it includes the `build_lib` command listing the source and header files of the model.
+
+3. Reconfigure ns-3:
+
+./ns3 configure
+
+4. Rebuild ns-3:
+
+./ns3 build
+
+
+## Usage
+
+Refer to `reg-gauss-markov-mobility-model.h` for a commented example demonstrating how to use the model.
+
+## Citation
+
+Please cite this work as follows:
+
+*TBA (to be updated upon publication).*
+
+## Note
+
+**The paper is currently under review. The source code will be fully available upon acceptance.**
