@@ -43,4 +43,4 @@ Please cite this work as follows:
 
 ## Contact
 
-For more details, please contact Dr. Ala Altaweel at altaweel.ala@gmail.com
+For more details, please contact Ala Altaweel at altaweel.ala@gmail.com
