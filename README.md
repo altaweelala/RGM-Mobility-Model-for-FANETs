@@ -4,7 +4,7 @@ This repository provides the ns-3 source code for the **Regulated Gauss-Markov M
 
 The implementation corresponds to the model presented in the paper:
 
-[***“A new GPS spoofing attack and a Regulated Gauss–Markov mobility model for FANETs”***](https://www.sciencedirect.com/science/article/pii/S1570870526001332), published in ***Ad Hoc Networks***.
+[**A new GPS spoofing attack and a Regulated Gauss–Markov mobility model for FANETs**](https://www.sciencedirect.com/science/article/pii/S1570870526001332), published in ***Ad Hoc Networks***.
 
 ## Citation
 
